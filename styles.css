@@ -275,8 +275,8 @@ section:last-of-type {
   font-style:italic;
   text-align:center;
   font-weight: 700;
-text-shadow: 0 3px 6px #6cc9ff1f
-color:var(--brand-blue)
+text-shadow: 0 3px 6px #6cc9ff1f;
+color:var(--brand-blue);
 }
 
 /* Savings Section on Homepage */
@@ -284,3 +284,25 @@ color:var(--brand-blue)
 text-align: center;
 }
 
+/* BLOG BETTER READABILITY 270mm */
+.container h1, 
+.container h2, 
+.container h3 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.container p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.container ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 25px;
+}
