@@ -353,19 +353,27 @@ text-align: center;
   color:#000;
 }
 
-/* ===== MOBILE FIX ===== */
-@media (max-width:600px){
-  .top-trust-bar{
-    top:6px;
-    font-size:12.5px;
-    padding:8px 14px;
-  }
 
+/* === MOBILE HERO FIX (PREVENT TRUST BAR OVERLAP) === */
+@media (max-width: 600px){
+
+  /* Hide taglines completely */
   .hero-tagline{
     display:none;
   }
 
+  /* Push main heading safely below trust bar */
   .hero-heading{
-    margin-top:78px;
+    margin-top:120px;
+  }
+
+  /* Shrink trust bar slightly */
+  .top-trust-bar{
+    font-size:12.5px;
+    padding:10px 14px;
+    top:6px;
   }
 }
+
+
+
