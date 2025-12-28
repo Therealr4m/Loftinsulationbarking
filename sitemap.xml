@@ -3,24 +3,24 @@
 
   <url>
     <loc>https://barkingloftinsulation.co.uk/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://barkingloftinsulation.co.uk/services.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://barkingloftinsulation.co.uk/contact.html</loc>
+    <loc>https://barkingloftinsulation.co.uk/barking-dagenham--loft-insulation-services.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://barkingloftinsulation.co.uk/local-installers.html</loc>
+    <loc>https://barkingloftinsulation.co.uk/barking-loft-insulation-contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://barkingloftinsulation.co.uk/our-local-barking-loft-insulation-installers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -30,6 +30,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
 
   <url>
     <loc>https://barkingloftinsulation.co.uk/different-types-loft-insulation.html</loc>
@@ -50,13 +51,19 @@
   </url>
 
   <url>
-    <loc>https://barkingloftinsulation.co.uk/blog-4-signs-insulation-needs-replacing.html</loc>
+    <loc>https://barkingloftinsulation.co.uk/blog/loft-insulation-4-signs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://barkingloftinsulation.co.uk/blog-loft-insulation-vs-energy-bills.html</loc>
+    <loc>https://barkingloftinsulation.co.uk/blog/loft-insulation-vs-rising-energy-bills-barking-dagenham.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://barkingloftinsulation.co.uk/blog/how-loft-insulation-benefits-older-homes.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -65,7 +72,5 @@
 <url>
   <loc>https://barkingloftinsulation.co.uk/blog/270mm-loft-insulation-standard.html</loc>
 </url>
-
-
 
 </urlset>
