@@ -90,6 +90,7 @@ img{max-width:100%;height:auto;display:block;object-fit:cover}
 .services li{margin:8px 0}
 
 /* Service page image (clean + mobile-first) */
+
 .service-image{
   margin: 26px auto 18px;
   max-width: 900px;
@@ -455,5 +456,67 @@ text-align: center;
   .hero-intro {
     font-size: 1rem;
     line-height: 1.5;
+  }
+}
+
+
+
+
+/* =====================================
+   LOCAL BARKING CONTEXT SECTION (NEW)
+   Matches homepage blue theme
+   ===================================== */
+
+/* Slight visual separation from main SEO intro */
+.seo-intro.container-small{
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f3f8ff 100%
+  );
+  border-left: 4px solid var(--brand-blue);
+  border-right: 4px solid var(--brand-light);
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(4,113,255,0.08);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Paragraph tightening for conversion readability */
+.seo-intro.container-small p{
+  color: #1f2a44;
+  font-weight: 700;
+}
+
+/* Highlight local keyword naturally */
+.seo-intro.container-small strong{
+  color: var(--brand-blue);
+}
+
+/* CTA refinement – keeps your yellow, boosts presence */
+.seo-intro.container-small .cta-btn{
+  margin-top: 22px;
+  background: linear-gradient(
+    135deg,
+    var(--accent),
+    #ffd84d
+  );
+  border: 2px solid var(--brand-blue);
+}
+
+/* CTA hover – premium but familiar */
+.seo-intro.container-small .cta-btn:hover{
+  background: linear-gradient(
+    135deg,
+    #ffd84d,
+    var(--accent)
+  );
+  transform: translateY(-2px);
+}
+
+/* Mobile spacing polish */
+@media (max-width: 600px){
+  .seo-intro.container-small{
+    padding: 24px 18px;
   }
 }
