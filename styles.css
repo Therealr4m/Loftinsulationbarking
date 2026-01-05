@@ -520,3 +520,43 @@ text-align: center;
     padding: 24px 18px;
   }
 }
+
+
+/* =====================================
+   MOBILE VISIBILITY FIX – LOCAL CONTEXT
+   ===================================== */
+
+@media (max-width: 768px){
+
+  /* Make the section visually pop on mobile */
+  .seo-intro.container-small{
+    background: linear-gradient(
+      180deg,
+      #f0f6ff 0%,
+      #ffffff 100%
+    );
+    border-left: 0;
+    border-right: 0;
+    border-top: 4px solid var(--brand-blue);
+    border-bottom: 4px solid var(--brand-light);
+    box-shadow: 0 6px 18px rgba(4,113,255,0.12);
+    margin: 22px 12px;
+  }
+
+  /* Improve text readability on small screens */
+  .seo-intro.container-small p{
+    font-size: 1.05rem;
+    line-height: 1.65;
+    padding: 0 6px;
+  }
+
+  /* CTA full-width = obvious on mobile */
+  .seo-intro.container-small .cta-btn{
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    margin: 22px auto 0 auto;
+    text-align: center;
+    font-size: 1.05rem;
+  }
+}
